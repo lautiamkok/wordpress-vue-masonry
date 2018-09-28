@@ -758,12 +758,12 @@ class stringReplace
         $index = $this->_count;
         $string = '<div class="container-image narrow-width">
                     <a href="#" class="button-add open-overlay-content" data-index="' . $index . '"><i class="material-icons">add</i></a>
-                    <a href="#" class="button-image open-overlay-content" data-index="' . $index . '"><img src="' . $matches[1] . '" alt="' . $matches[2] . '" \/></a>
+                    <a href="#" class="button-image open-overlay-content" data-index="' . $index . '"><img src="' . $matches[2] . '" alt="' . $matches[2] . '" \/></a>
                    </div>';
 
         $image = array(
-            'url' => $matches[1],
-            'alt' => $matches[2],
+            'url' => $matches[2],
+            'alt' => $matches[3],
         );
         $this->_images[] = $image;
         $this->_count++;

@@ -88,7 +88,7 @@ set_query_var('parent', $parent);
                 }
                 $string = translateContent($post, $lang);
                 $replacer = new stringReplace($startIndex);
-                $string = $replacer->replace('/<p><img src="(.*?)" alt="(.*?)" (.*?)\/><\/p>/', $string);
+                $string = $replacer->replace('/<p><img class="(.*?) src="(.*?)" alt="(.*?)" (.*?) \/><\/p>/', $string);
                 $total = $replacer->sumMatches();
                 $images = $replacer->getImages();
 
