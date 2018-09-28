@@ -1,6 +1,6 @@
-# WordPress + Vue: Infinite Loading
+# WordPress + Vue + Masonry
 
-> Creating an infinite loading/ scroll with Vue for Wordpress
+> Using Masonry with Vue for Wordpress
 
 Read the post [here](https://www.codementor.io/lautiamkok/using-masonry-with-vue-for-wordpress-ntmm3lh76) about this repository.
 
